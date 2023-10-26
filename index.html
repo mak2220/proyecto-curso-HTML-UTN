@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Proyecto Final HTML</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Curriculum Programador</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 style="margin: 15px;">Marcos Berta</h2>
+    <hr>
+    <article class="container">
+        <h3>Descripción de habilidades</h3>
+        <img class="image" src="/assets/img/image.jpg" alt="Marcos Berta">
+        <p>
+            Hello, my name is Marcos Berta, I am a junior <strong>FrontEnd developer,</strong>focused on <em>Vanilla JS 
+            with knowledge of React JS and SCSS technologies,</em> applied to the mobile first concept.
+            I am located in Entre Ríos, Argentina and I aspire to be able to work in the IT world remotely by executing
+            projects without fixed schedules. At this moment I am not very interested in pay, <i>I want to gain a lot of
+            experience and be able to develop.</i>
+            I am a proactive person, soft skills friendly and eager to collaborate with other developers on all types of
+            projects.
+        </p>
+        <img class="image2" src="/assets/img/image2.jpg" alt="Developer Trabajando">
+        <p>
+            I am always interested in everything related to the IT world. After the Pandemic, I considered working on
+            something I'm really passionate about, and that's how I discovered Web Development.
+            After immersing myself in this exciting world, I learned about Salesforce technology and the impact it has
+            on the industry, that is why I want to be part of this program, to be able to develop in this field.
+            I consider myself a proactive person, committed to everything I start, who makes good use of his time and
+            does not leave tasks unfinished, with good communication and collaborative work skills, who has a lot to
+            learn but also to give.
+
+        </p>
+    </article>
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2023</p>
+    </footer>
+
+</body>
+
+</html>
